@@ -1,13 +1,10 @@
-import character from './domain';
+import Character from './domain';
 
-class Game {
+export default class Game {
   start() {
     console.log('game started');
   }
 }
-
-const game = new Game();
-export default game;
 
 export class GameSavingData {}
 
